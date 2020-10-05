@@ -1,0 +1,280 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'DM Sans',  Helvetica, Arial, Sans-Serif;
+/* transition: .19s; */
+}
+
+@font-face {
+  font-family: 'OakesGrotesk-Regular';
+  font-family: 'OakesGrotesk-Semi-Bold';
+  font-family: 'OakesGrotesk-Medium';
+  font-family: 'OakesGrotesk-SemiBold';
+  font-family: 'OakesGrotesk-SemiBold';
+  font-family: 'OakesGrotesk-SemiBold';
+  font-family: 'OakesGrotesk-SemiBold';
+  font-family: 'OakesGrotesk-SemiBold';
+}
+
+
+#me{
+  color:#1997F2;
+}
+
+#hey{
+  color:#B0B0B0;
+}
+
+
+#title{
+margin-top: 24px;
+margin-left: 64px;
+width: 460px;
+}
+
+#floating-ball{
+z-index: -1;
+float: right;
+margin-right: 20%;
+position: relative;
+}
+
+#up-to{
+margin-top: 64px;
+margin-left: 64px;
+width: 827px;
+/* line-height: 2; */
+}
+
+button {
+  background-color: #FFFFFF;
+  margin-top:24px;
+  border: 3px solid #121212;
+  color: #121212;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'OakesGrotesk-Semi-Bold';
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+button:: after {
+box-shadow: 10px 5px 10px rgba(0,0,0,.3);
+opacity: 0;
+transition:  0.3s ease-in-out;
+transform: scale(1.1, 1.1);
+}
+
+button:hover{
+-webkit-transform: scale(1.1, 1.1);
+ transform: scale(1.1, 1.1);
+ background-color: #121212;
+ border: 3px solid #121212;
+ color: white;
+ transition: .2s;
+}
+
+button:hover: after {
+  opacity: 1;
+  box-shadow: 10px 40px 25px rgba(0,0,0,.3);
+}
+
+ul{
+margin-left: 48px;
+width: 827px;
+list-style: none;
+}
+
+li{
+  padding:16px;
+  list-style-image: url(../assets/dash.png);
+}
+
+#philo{
+margin-top:64px;
+margin-left: 64px;
+}
+
+body{
+  background-color: #FFFFFF;
+  color: #121212;
+  z-index: 1;
+}
+
+h1{
+  font-family: 'OakesGrotesk-Semi-Bold';
+  font-size: 60px;
+  line-height: .99;
+}
+
+h2{
+  font-family: 'OakesGrotesk-Semi-Bold';
+  font-size: 36px;
+}
+
+p{
+  font-size: 20px;
+}
+
+ul{
+  font-size: 24px;
+}
+
+a{
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#1997F2;
+}
+
+a:active{
+  color:#1997F2;
+}
+
+header{
+  background: #FFFFFF;
+  height: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 17% 17% ;
+  grid-template-rows:100%;
+  top:0;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'OakesGrotesk-Regular';
+}
+
+.header-link {
+  font-size: min(1.6vw, 1em);
+  font-family: 'OakesGrotesk-Regular';
+}
+
+nav {
+  font-size: 20px;
+  width: auto;
+  font-family: 'OakesGrotesk-Regular';
+}
+
+.title{
+  font-size: 20px;
+  font-family: 'OakesGrotesk-Regular';
+}
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 284px;
+height: 284px;
+left: 578px;
+top: 82px;
+
+background: radial-gradient(50% 50% at 50% 50%, rgba(25, 151, 242, 0.7) 0%, rgba(185, 226, 255, 0.035) 100%);
+/* trying to shape how people interact with the present @liveineverynow. making music, writing songs, and helping other artists navigate their journeys @jacob'sblue taking classes @teamtreehouse to better understand software engineering and learning japanese @duolingo getting through the DUNE series, meditating on the tao te ching, and reading atomic habits getting my ass kicked in Mauy Thai + trying to become a BJJ blue belt when I can find the time, binge watching My Hero Academia @hulu lol */
+
+position: absolute;
+width: 827px;
+height: 446px;
+left: 100px;
+top: 581px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+
+color: rgba(0, 0, 0, 0.9);
+
+
+/* Group 2 */
+
+position: absolute;
+width: 1440px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 26 */
+
+position: absolute;
+width: 1440px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 312px;
+height: 328px;
+left: 60px;
+top: 1234px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 5px;
+
+
+/* MVP */
+
+position: absolute;
+width: 56px;
+height: 24px;
+left: 77px;
+top: 1415px;
+
+font-family: Oakes Grotesk;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+color: rgba(0, 0, 0, 0.9);
+
+
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 139px;
+height: 134px;
+left: 216px;
+top: 1387px;
+
+background: #1997F2;
+border-radius: 5px;
+transform: rotate(-180deg);
+
+
+/* Helping change the narrative on how to live happier, healthier, and more productive lives */
+
+position: absolute;
+width: 284px;
+height: 92px;
+left: 77px;
+top: 1447px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 151.1%;
+/* or 29px */
+
+color: #2C2C2C;
